@@ -3,9 +3,7 @@
     height: 70vh;
     width: 65%;
     background-color: rgb(33, 37, 41);
-    position: relative;
-    margin-top: 50px !important;
-    
+    position: relative;    
 }
 
 .canvas {
