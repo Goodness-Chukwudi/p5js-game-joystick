@@ -1,0 +1,22 @@
+
+.console {
+    height: 92vh;
+    width: 95%;
+    background-color: rgb(33, 37, 41);
+    /* padding: 100px 0 0 100px; */
+    position: relative;
+}
+
+.canvas {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media (orientation: portrait) {
+  .console {
+    height: 35vh;
+    border-radius: 150px !important;
+  }
+}
