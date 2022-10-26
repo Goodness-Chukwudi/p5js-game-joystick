@@ -1,10 +1,11 @@
 
 .console {
-    height: 92vh;
-    width: 95%;
+    height: 50vh;
+    width: 65%;
     background-color: rgb(33, 37, 41);
-    /* padding: 100px 0 0 100px; */
     position: relative;
+    margin-top: 50px !important;
+    
 }
 
 .canvas {
