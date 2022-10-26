@@ -48,7 +48,7 @@ class JoyStick {
             this.value.y = this.stickPosition.y;
             this.stickPosition = this.p5.createVector(this.position.x + this.stickPosition.x, this.position.y + this.stickPosition.y);
 
-            const x = this.getX(10), y = this.getY(4);
+            const x = this.getX(10), y = this.getY(2);
 			const data = JSON.stringify({x, y});
 			this.socket.send(data);
         }
