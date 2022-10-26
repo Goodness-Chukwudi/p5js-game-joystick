@@ -2,7 +2,7 @@
 
 class JoyStick {
 
-    socket = new WebSocket("ws://weather-man-map.herokuapp.com");
+    socket = new WebSocket("wss://weather-man-map.herokuapp.com");
     JOYSTICK_COLOR = [255, 255, 150, 40];
     JOYSTICK_INNER_COLOR = [255, 255, 150];
     controls;
