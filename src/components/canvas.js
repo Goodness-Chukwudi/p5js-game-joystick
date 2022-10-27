@@ -15,8 +15,6 @@ import JoyStick from "./joyStick";
 			p5.background(33, 37, 41);
 			if(joyStick.update != undefined) joyStick.update();
 			joyStick.render();
-
-
 		};
 
 		const touchStarted = () => {
