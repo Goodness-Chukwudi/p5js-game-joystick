@@ -51,6 +51,11 @@ class JoyStick {
             const x = this.getX(15), y = this.getY(0.7);
 			const data = JSON.stringify({x, y});
 			this.socket.send(data);
+
+			this.socket.onerror = (event) => {
+                alert("Web socket error. Please reload the server and controller");
+                console.log(event)
+            }
         }
 
         return {x: 0, y: 0};

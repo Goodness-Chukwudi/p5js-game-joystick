@@ -3,6 +3,7 @@
     height: 70vh;
     width: 65%;
     background-color: rgb(33, 37, 41);
+    border: 10px solid rgb(80, 80, 8);
     position: relative;    
 }
 
