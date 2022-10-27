@@ -13,7 +13,7 @@ import JoyStick from "./joyStick";
 
 		const draw = (p5) => {
 			p5.background(33, 37, 41);
-			if(joyStick.update != undefined) joyStick.update();
+			if(joyStick.update !== undefined) joyStick.update();
 			joyStick.render();
 		};
 
