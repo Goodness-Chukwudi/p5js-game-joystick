@@ -29,14 +29,6 @@ import { useState } from "react";
             }, 100);
         }
 
-        socket.onmessage = (event) => {
-            const data = JSON.parse(event.data);
-            if (data.initialPosition) {
-                x = data.initialPosition.x;
-                y = data.initialPosition.y;
-            }
-        }
-
         socket.onerror = (event) => {
             setError({title: "Web Socket Connection Failed!", text: "Please reload the server and try again"});
         }
