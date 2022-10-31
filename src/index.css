@@ -22,33 +22,61 @@
 
 .right {
   width: 60px;
+  height: 60px;
   margin-right: 90px;
 }
 
 .left {
   width: 60px;
+  height: 60px;
   margin-left: 90px;
 }
 
 .up {
   width: 60px;
+  height: 60px;
   margin-top: 40px;
 }
 
 .down {
   width: 60px;
+  height: 60px;
   margin-bottom: 40px;
 }
 
-.action-control {
-  width: 60px;
-  height: 60px;
+.arrow-right {
+  background-image: url("./images/arrow-right.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
+
+.arrow-left {
+  background-image: url("./images/arrow-left.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.arrow-up {
+  background-image: url("./images/arrow-up.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.arrow-down {
+  background-image: url("./images/arrow-down.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 
 @media (max-width: 990px) {
   .controller {
     width: 90vw;
-    height: 45vw;
+    height: 40vw;
     border-width: 3vw;
   }
   .inner-circle1 {
@@ -85,29 +113,39 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 340px) {
   .controller {
     width: 320px;
     height: 150px;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   .up {
-    margin-top: -5%;
+    margin-top: -6%;
   }
   
   .down {
-    margin-bottom: -5%;
+    margin-bottom: -6%;
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 550px) {
   .up {
-    margin-top: -15%;
+    margin-top: -14%;
   }
   
   .down {
-    margin-bottom: -15%;
+    margin-bottom: -14%;
+  }
+}
+
+@media (max-width: 460px) {
+  .up {
+    margin-top: -35px;
+  }
+  
+  .down {
+    margin-bottom: -35px;
   }
 }
