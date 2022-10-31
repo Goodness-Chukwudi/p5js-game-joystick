@@ -1,11 +1,11 @@
 import React from 'react';
-import Console from './components/console';
+import Controller from './components/controller/Controller';
 import './App.css';
 
 function App() {
   return (
-    <div className="">
-        <Console />
+    <div>
+      <Controller />
     </div>
   );
 }

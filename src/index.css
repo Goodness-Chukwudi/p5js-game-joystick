@@ -1,22 +1,113 @@
-
-.console {
-    height: 70vh;
-    width: 65%;
-    background-color: rgb(33, 37, 41);
-    border: 10px solid rgb(80, 80, 8);
-    position: relative;    
+.controller {
+  width: 992px;
+  height: 450px;
+  border: 40px solid rgb(80, 80, 8);
+  margin: 50px auto 0;
 }
 
-.canvas {
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+.inner-circle1 {
+  width: 65px;
+  height: 65px;
+  border: .5px solid #907117 !important;
+}
+.inner-circle2 {
+  width: 53px;
+  height: 53px;
+  border: .5px solid #ffc108 !important;
+}
+.inner-circle3 {
+  width: 25px;
+  height: 25px;
 }
 
-@media (orientation: portrait) {
-  .console {
-    height: 35vh;
-    border-radius: 150px !important;
+.right {
+  width: 60px;
+  margin-right: 90px;
+}
+
+.left {
+  width: 60px;
+  margin-left: 90px;
+}
+
+.up {
+  width: 60px;
+  margin-top: 40px;
+}
+
+.down {
+  width: 60px;
+  margin-bottom: 40px;
+}
+
+.action-control {
+  width: 60px;
+  height: 60px;
+}
+
+@media (max-width: 990px) {
+  .controller {
+    width: 90vw;
+    height: 45vw;
+    border-width: 3vw;
+  }
+  .inner-circle1 {
+    width: 5vw;
+    height: 5vw;
+  }
+  .inner-circle2 {
+    width: 4vw;
+    height: 4vw;
+  }
+  .inner-circle3 {
+    width: 2vw;
+    height: 2vw;
+  }
+  .right {
+    width: 15%;
+    margin-right: 18%;
+  }
+  .left {
+    width: 15%;
+    margin-left: 18%;
+  }
+  .up {
+    width: 15%;
+    margin-top: 6%;
+  }
+  .down {
+    width: 15%;
+    margin-bottom: 6%;
+  }
+  .action-control {
+    width: 6vw;
+    height: 6vw;
+  }
+}
+
+@media (max-width: 320px) {
+  .controller {
+    width: 320px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 500px) {
+  .up {
+    margin-top: -5%;
+  }
+  
+  .down {
+    margin-bottom: -5%;
+  }
+}
+
+@media (max-width: 350px) {
+  .up {
+    margin-top: -15%;
+  }
+  
+  .down {
+    margin-bottom: -15%;
   }
 }
